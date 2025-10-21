@@ -38,7 +38,7 @@ function App() {
               style={{ fontFamily: '"Special Gothic Expanded One", sans-serif' }}
                className='newFont
               font-bold
-               sm:text-4xl text-center text-2xl pb-3 sm:pb-0 '>Gradient Genarator - {num} {type}</h1>
+               sm:text-4xl text-center text-3xl pb-3 sm:pb-0 '>Gradient Genarator - {num} {type}</h1>
               <div className='flex flex-col sm:flex-row'>
                 <div className='flex mb-3 sm:mb-0'>
                     <input value={num} onChange={(e) => setNum(Number(e.target.value))} type="text" className='border-3 font-medium bg-white border-neutral-800 rounded-md w-25 h-9.5 px-2' />
