@@ -28,7 +28,7 @@ function App() {
   return (
     <>
         <div className='min-h-screen selection:bg-black selection:text-white
-        [background-image:radial-gradient(circle,var(--color-neutral-300)_1px,transparent_1px)]
+        [background-image:radial-gradient(circle,var(--color-neutral-200)_1px,transparent_1px)]
         [background-size:10px_10px]
         '>
           <div className='w-9/12 mx-auto'>
