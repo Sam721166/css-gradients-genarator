@@ -55,7 +55,7 @@ function App() {
                 </div>
                 
               
-              <button className='cursor-pointer shadow:md sm:ml-5 h-9.5 border-2 w-51 sm:w-35 rounded-md border-neutral-800 bg-neutral-900 hover:bg-neutral-700 active:scale-95 transition-all duration-150 text-white text-lg shadow-md' onClick={() => setRefresh(prev => prev + 1)}>Genarate</button>
+              <button className='cursor-pointer shadow:md sm:ml-5 h-9.5 border-2 w-51 sm:w-35 rounded-md border-neutral-800 bg-neutral-900 hover:bg-neutral-700 active:scale-95 transition-all duration-150 text-white text-lg shadow-md' onClick={() => setRefresh(prev => prev + 1)}>Generate</button>
               </div>
             </div>
 
