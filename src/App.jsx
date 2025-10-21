@@ -36,11 +36,15 @@ function App() {
            
               <h1
               style={{ fontFamily: '"Special Gothic Expanded One", sans-serif' }}
-               className='newFont
+               className='newFont flex 
               font-bold
-               sm:text-4xl text-center text-3xl pb-3 sm:pb-0 '>Gradient Genarator - {num} {type}</h1>
+               sm:text-4xl text-center text-3xl pb-3 sm:pb-5 '>Gradientify</h1>
               <div className='flex flex-col sm:flex-row'>
+
+                  <span className='mr-7 font-semibold text-2xl text-neutral-800 flex justify-center mb-4'>{num} {type}</span>
+
                 <div className='flex mb-3 sm:mb-0'>
+
                     <input value={num} onChange={(e) => setNum(Number(e.target.value))} type="text" className='border-3 font-medium bg-white border-neutral-800 rounded-md w-25 h-9.5 px-2' />
 
                   <select value={type} onChange={(e) => setType(e.target.value)} className='cursor-pointer z-10 inset-0 ml-3 border-3 border-neutral-800 rounded-md h-9.5 px-3 font-semibold focus:outline-none '>
