@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import { ToastContainer, toast } from 'react-toastify'
+import { Analytics } from "@vercel/analytics/react"
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
 
   return (
     <>
+    <Analytics/>
         <div className='min-h-screen selection:bg-black selection:text-white
         [background-image:radial-gradient(circle,var(--color-neutral-200)_1px,transparent_1px)]
         [background-size:10px_10px]
